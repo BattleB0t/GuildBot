@@ -5,7 +5,8 @@
 Uses [discord.js-light](https://github.com/timotejroiko/discord.js-light) to communicate with [Discord](https://discord.com), and [Mineflayer](https://github.com/PrismarineJS/mineflayer) for [Hypixel](https://hypixel.net/) interactions.
 
 ```diff
-- This application utilizes a non-vanilla Minecraft client to login to Hypixel, which could result in your Minecraft account being banned. Use at your own risk. -
+- This application utilizes a non-vanilla Minecraft client to login to Hypixel,
+- which could result in your Minecraft account being banned. Use at your own risk.
 ```
 
 ## Setup
@@ -116,7 +117,7 @@ Channel ID for the application menu.
 #### `roleMap` \<object[]\>
 Map of guild roles to Discord roles for the bot to automatically apply. e.g
 
-```json
+```
 "roleMap": [
   {
     "name": "Officer", // Hypixel Guild Role Name
@@ -129,7 +130,7 @@ Map of guild roles to Discord roles for the bot to automatically apply. e.g
 ]
 ```
 
-## Planned Features:
+## Roadmap
 - Account Linking
 - Frag Running
   - Restrictable to guild members
