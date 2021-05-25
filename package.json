@@ -1,0 +1,16 @@
+{
+  "main": "src/app.js",
+  "scripts": {
+    "postinstall": "cp config.example.json config.json",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js-light": "^3.5.11",
+    "hypixel-api": "^1.2.0",
+    "mineflayer": "^3.7.0",
+    "node-cron": "^3.0.0",
+    "sequelize": "^6.6.2"
+  }
+}

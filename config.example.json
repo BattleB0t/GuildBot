@@ -1,0 +1,47 @@
+{
+  "options": {
+    "accountLink": {
+      "enforceNames": true,
+      "nameFormat": "<{cata}> {name}"
+    },
+    "fragRun": {
+      "enableFragRun": true,
+      "guildExclusive": true
+    },
+    "chatBridge": {
+      "showJoinLeave": false,
+      "prefix": {
+        "discord": "",
+        "hypixel": "",
+        "join": "",
+        "leave": ""
+      }
+    },
+    "requirements": {
+      "cataLevel": 0,
+      "secretCount": 0,
+      "skillAverage": 0,
+      "slayerEXP": 0
+    }
+  },
+  "minecraft": {
+    "username": "",
+    "password": "",
+    "microsoftAuth": false,
+    "server": {
+      "host": "mc.hypixel.net",
+      "port": 25565
+    }
+  },
+  "discord": {
+    "token": "",
+    "channels": {
+      "status": "",
+      "accountLink": "",
+      "chatBridge": "",
+      "applications": ""
+    },
+    "roleMap": []
+  },
+  "database": ""
+}
